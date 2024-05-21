@@ -39,7 +39,7 @@ body {
   min-height: 100vh /* 2 */;
   font-size: 15px;
   line-height: 1.5;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+  font-family: "Poppins", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
   text-rendering: optimizeLegibility /* 3 */;
   -webkit-font-smoothing: antialiased /* 4 */;
@@ -156,7 +156,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+  font-family: "Poppins", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
     monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
