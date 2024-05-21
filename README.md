@@ -4,7 +4,7 @@
 
 * [X] Achar prototipo em fig
 * [X] Criar projeto base para o front
-* [ ] Criar projeto base para o back
+* [X] Criar projeto base para o back
 
 **Desenvolvimento**
 
