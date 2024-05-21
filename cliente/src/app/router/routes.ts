@@ -6,7 +6,7 @@ import { LoginComponent } from '../pages/auth/login/login.component';
 export const getRoutes = () => {
 
   const routes: Routes = [
-    /* Prevenir loop infinito { path: '', redirectTo: '/home', pathMatch: 'full' }, */
+    { path: '', redirectTo: '/auth/login', pathMatch: 'full' },
     { path: 'auth/login', component: LoginComponent },
     { path: '**', component: PageNotFoundComponent }
   ];
