@@ -8,7 +8,7 @@
 
 **Desenvolvimento**
 
-* [ ] Ajustar arquitetura do projeto front
+* [X] Ajustar arquitetura do projeto front
 * [ ] Criar um cliente HTTP
 * [ ] Desenvolver guardas de autenticação
 * [ ] Modulo de autenticação
