@@ -91,7 +91,7 @@
 
           .welcome
             font-weight: 300
-            font-size: 25px
+            font-size: clamp(18px, 2vw, 25px)
             margin: 0px 0px clamp(5px, 45px, 5vh) 0px
           .title
             font-weight: 500
@@ -116,7 +116,6 @@
 
     .coll-2
       display: flex
-      justify-content: center
       align-items: center
       min-height: 0px
       img
@@ -124,8 +123,15 @@
 
 @media screen and (max-width: 880px), screen and (max-height: 740px)
   .app-login
+    padding: clamp(5px, 25px, 5vh) clamp(5px, 26px, 5vh)
+    .row-1
+      display: none
     .row-2
       grid-template-columns: 1fr
+      .coll-1
+        .card
+          border: none
+          box-shadow: none
       .coll-2
         display: none
     
