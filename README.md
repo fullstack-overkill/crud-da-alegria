@@ -3,10 +3,8 @@
 **Inicio do projeto**
 
 * [X] Achar prototipo em fig
-* [ ] Criar projeto base para o front
+* [X] Criar projeto base para o front
 * [ ] Criar projeto base para o back
-
-
 
 **Desenvolvimento**
 
